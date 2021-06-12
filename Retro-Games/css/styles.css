@@ -6903,6 +6903,7 @@ textarea.form-control-lg {
 .my-3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .my-4 {
@@ -10856,6 +10857,7 @@ p {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: 'Press Start 2P', cursive;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11169,6 +11171,7 @@ header.masthead .masthead-heading {
 .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
   margin-top: 0;
   color: inherit;
+  font-family: 'Press Start 2P', cursive;
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
@@ -11261,6 +11264,7 @@ header.masthead .masthead-heading {
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .img-brand {
