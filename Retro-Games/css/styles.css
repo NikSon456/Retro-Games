@@ -49,6 +49,10 @@
   }
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -623,6 +627,9 @@ progress {
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1.25rem 1.2rem;
   }
 }
 @media (min-width: 1200px) {
@@ -10851,12 +10858,12 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0 2rem;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
   font-family: 'Press Start 2P', cursive;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
@@ -10892,7 +10899,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10926,8 +10933,8 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.75);
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
@@ -10974,6 +10981,7 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   font-family: 'Press Start 2P', cursive;
 }
+
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
@@ -10981,6 +10989,19 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: 'Press Start 2P', cursive;
 }
+
+header.masthead .nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+header.masthead .nav-links a {
+  min-width: 410px;
+}
+
 
 @media (min-width: 768px) {
   header.masthead {
@@ -10994,10 +11015,10 @@ header.masthead .masthead-heading {
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
+    line-height: 5rem;
+    margin-bottom: 7rem;
   }
 }
 #portfolio .portfolio-item {
@@ -11032,6 +11053,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  min-height: 435px;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
